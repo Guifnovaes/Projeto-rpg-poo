@@ -1,8 +1,8 @@
 <?php
 class Player {
-    private $nickname;
-    private $nivel;
-    private $inventario;
+    public $nickname;
+    public $nivel;
+    public $inventario;
 
     public function __construct($nickname) {
         $this->nickname = $nickname;
