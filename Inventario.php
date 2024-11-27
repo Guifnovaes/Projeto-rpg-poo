@@ -1,7 +1,7 @@
 <?php
 class Inventario {
-    private $capacidadeMaxima;
-    private $itens = [];
+    public $capacidadeMaxima;
+    public $itens = [];
 
     public function __construct($capacidadeMaxima) {
         $this->capacidadeMaxima = $capacidadeMaxima;
