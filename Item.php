@@ -1,8 +1,8 @@
 <?php
 class Item {
-    private $nome;
-    private $tamanho;
-    private $classe;
+    public $nome;
+    public $tamanho;
+    public $classe;
 
     public function __construct($nome, $tamanho, $classe) {
         $this->nome = $nome;
